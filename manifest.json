@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Weekday Blocker",
+    "description": "Can only watch Youtube on the weekends",
+    "version": "0.0.1",
+    "author": "Joseph Erlinger",
+    "browser_action": {
+        "default_title": "Youtube Weekday Blocker"
+    },
+    "permissions": [
+        "tabs",
+        "webNavigation",
+        "https://www.youtube.com/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
